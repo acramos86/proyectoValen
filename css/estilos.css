@@ -1,0 +1,86 @@
+html, body{
+	padding: 0px;
+	margin: 0;
+	font-size: 20;
+	background-color: #b2dfdb;
+	font-family: 'Syne Mono', monospace;
+}
+
+nav{
+	background-color: #009688;
+}
+
+div .card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-action{
+	float: right;
+}
+
+.card-content{
+	height: 100%;
+}
+
+.nav-wrapper{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-copyright{
+	justify-content: space-between;
+}
+
+.probar{
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.page-footer{
+ 	background-color: #00796b;	
+ }
+
+.page-footer i{
+	/*color: black;*/
+	color: white;
+}
+
+.parallax{
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url("../imagenes/parallax.jpeg");
+	background-size: cover;
+	display: flexbox;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.texto{
+	text-align: center;
+	padding: 18px;
+	color: white;
+	background: black;
+}
+
+.textop{
+	text-align: justify;
+	padding: 18px;
+	font-size: 20px;
+}
+
+.textoIndex{
+	text-align: justify;
+	padding: 18px;
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	/*font-size: 20px;*/
+	font-family: 'Oswald', sans-serif;
+}
